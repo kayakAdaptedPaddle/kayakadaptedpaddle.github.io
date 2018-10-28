@@ -6159,13 +6159,16 @@ label.panel-block {
 .has-round-corners {
   border-radius: 5px; }
 
+.has-overlay {
+  position: relative; }
+
 .has-overlay:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: black;
-  opacity: .35; }
+  opacity: .55; }
 
 .intro-section {
   margin-block-end: 2em !important;
@@ -6179,9 +6182,24 @@ label.panel-block {
   flex-direction: row; }
 
 #main-header {
-  background-image: url(../../assets/imgs/KAP-1.png); }
+  background-image: url(../../assets/imgs/KAPshortVideo.mp4); }
 
 ul, li {
   list-style-type: none !important; }
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  object-fit: cover; }
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 /*# sourceMappingURL=main.css.map */
