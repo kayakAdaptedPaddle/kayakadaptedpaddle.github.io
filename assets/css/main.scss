@@ -1,11 +1,18 @@
 
-
+$widescreen-enabled: false;
+$fullhd-enabled: false;
 
 @import "../../bulma-0.7.2/bulma";
 
 .has-background-image-centered{
     background-position: center;
     background-size: cover;
+}
+
+.is-vertical-centered {
+    display: flex !important;
+    flex: 1 !important;
+    align-items: center !important;
 }
 
 .has-round-corners{
@@ -22,7 +29,23 @@
 
 }
 
+.intro-section{
+    min-height: 20em;
+    margin-block-end: 2em !important;
+    margin-block-start: 2em !important;
+    flex-direction: row-reverse;
+}
+
+.intro-section:nth-child(odd){
+    flex-direction: row;
+}
+
 #main-header{
     background-image: url(../../assets/imgs/KAP-1.png);
+}
+
+
+ul, li{
+    list-style-type: none !important;
 }
 
