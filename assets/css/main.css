@@ -6677,4 +6677,12 @@ label.panel-block {
 #main-header {
   background-image: url(../../assets/imgs/KAP-1.png); }
 
+.has-overlay:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .35; }
+
 /*# sourceMappingURL=main.css.map */
