@@ -23,3 +23,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
   });
+
+
+  languative.modifyDictionary("en", {
+    welcomeMessage: "Witaj na stronie testowej Languative",
+    selectLanguage: "Możesz wybrać język przez kliknięcie linków poniżej",
+    english: "English",
+    spanish: "Spanish",
+    contact: "Contact",
+    siteTitle: "Kayak Adapted Paddle",
+    siteSubtitle: "An innovative kayak paddle design, directed to...",
+    alertTitle: "We are currently preparing for our first production run",
+    alertMessage: "If you would be interested in buying a KAP®, send us an e-mail with your details to:",
+    section_1: "Missing first section translation....",
+    section_2: "Missing section 2 translation...",
+    section_3: "Missing third section translation...",
+    footer_authors: " has been designed by:",
+    footer_author_1: "Juan Luís de Andrés Muguruza - MISSING ENGLISH TRANSLATION!",
+    footer_author_2: "Gema Fernández García - MISSING ENGLISH TRANSLATION!",
+    pattent_pending: "KAP® Pattent pending"
+
+  });
+
+  languative.modifyDictionary("es", {
+    alertTitle: "Estamos preparando la primera ronda de producción",
+    alertMessage: "Si estás interesado en adquirir un KAP®, envíanos un mail a:"
+  });

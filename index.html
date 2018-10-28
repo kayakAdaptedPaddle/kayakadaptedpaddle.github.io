@@ -8,7 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <script src="assets/js/languative.js"></script>
 
     <script src="assets/js/main.js"></script>
 </head>
@@ -37,11 +40,22 @@
                     <div id="navbarMenuHeroC" class="navbar-menu has-background-transparent">
                         <div class="navbar-end">
                             <span class="navbar-item">
+                                <a class="" href="#" onclick="languative.changeLanguage('en');" data-phrase-id="english">
+                                    Inglés
+                                </a>
+                            </span>
+                            <span class="navbar-item is-active">
+                                <a class="" href="#" onclick="languative.changeLanguage('es');"
+                                    data-phrase-id="spanish">
+                                    Español
+                                </a>
+                            </span>
+                            <span class="navbar-item">
                                 <a class="button is-dark is-inverted" href="mailto:kayakadaptedpaddle@gmail.com">
                                     <span class="icon">
                                         <i class="fas fa-envelope"></i>
                                     </span>
-                                    <span>Contact</span>
+                                    <span data-phrase-id="contact">Contactar</span>
                                 </a>
                             </span>
                         </div>
@@ -51,10 +65,10 @@
         </div>
         <div class="hero-body">
             <div class="container">
-                <h1 class="title is-1">
+                <h1 data-phrase-id="siteTitle" class="title is-1">
                     Pala Adaptada al Kayak
                 </h1>
-                <h2 class="subtitle is-5">
+                <h2 data-phrase-id="siteSubtitle" class="subtitle is-5">
                     Un diseño innovador de pala de kayak, dirigida a personas son un solo miembro superior funcional
                 </h2>
             </div>
@@ -65,9 +79,10 @@
     <section class="section">
         <div class="container">
             <div class="content notification is-danger has-text-centered">
-                <h4 class="has-text-white">We are currently preparing for our first production run.</h4>
+                <h4 data-phrase-id="alertTitle" class="has-text-white">Estamos preparando la primera ronda de
+                    producción</h4>
 
-                <p>If you would be interested in buying a KAP®, send us an e-mail with your details to</p>
+                <p data-phrase-id="alertMessage">Si estás interesado en adquirir un KAP®, envíanos un mail a:</p>
                 <a class="button is-danger is-inverted" href="mailto:kayakadaptedpaddle@gmail.com">
                     <span class="icon">
                         <i class="fas fa-envelope"></i>
@@ -81,7 +96,8 @@
                 <div class="column is-7 is-vertical-centered">
                     <div class="section">
                         <div class="content">
-                            <p>Presentamos KAP como un diseño innovador de pala de kayak, dirigida a personas son un
+                            <p data-phrase-id="section_1">Presentamos KAP como un diseño innovador de pala de kayak,
+                                dirigida a personas son un
                                 solo miembro superior funcional, que permite la práctica del kayak mediante el brazo
                                 útil en actividades de competición, turismo náutico, rehabilitación o salud.</p>
                         </div>
@@ -96,7 +112,7 @@
                 <div class="column is-7 is-vertical-centered">
                     <div class="section">
                         <div class="content">
-                            <p>
+                            <p data-phrase-id="section_2">
                                 En la actualidad no existe ningún dispositivo aplicado a personas con una carencia
                                 funcional total de un miembro superior que habilite para la práctica del kayak,
                                 manteniendo la independencia de movimiento de brazo y tronco, sin alterar la técnica
@@ -114,7 +130,8 @@
                 <div class="column is-7 is-vertical-centered">
                     <div class="section">
                         <div class="content">
-                            <p>KAP® abre un horizonte esperanzador e inclusivo a personas y deportistas que carecemos de
+                            <p data-phrase-id="section_3">KAP® abre un horizonte esperanzador e inclusivo a personas y
+                                deportistas que carecemos de
                                 funcionalidad en un miembro superior y que, a día de hoy, estamos apartados de este
                                 deporte.
                             </p>
@@ -128,18 +145,20 @@
         <div class="container">
             <div class="content has-text-centered">
                 <p>
-                    <strong>K A P®</strong> ha sido diseñado por:
+                    <p><strong>K A P®</strong><span data-phrase-id="footer_authors"> sido diseñado por:</span></p>
                     <ul class="author-list">
-                        <li><strong>Juan Luís de Andrés Muguruza</strong> - Técnico Deportivo Superior de Piragüismo
+                        <li data-phrase-id="footer_author_1">Juan Luís de Andrés Muguruza - Técnico
+                            Deportivo Superior de Piragüismo
                             Nivel III</li>
-                        <li><strong>Gema Fernández García</strong> - Licenciada en Ciencias de la Actividad Física y
+                        <li data-phrase-id="footer_author_2">Gema Fernández García - Licenciada en
+                            Ciencias de la Actividad Física y
                             Deporte</li>
-                            <li>Diseño protegido por patente - Patent pending</li>
+                        <li data-phrase-id="pattent_pending">Diseño protegido por patente</li>
                     </ul>
                     <div class="notification is-dark">
-                        <h4 class="has-text-primary">We are currently preparing for our first production run.</h4>
+                        <h4 data-phrase-id="alertTitle" class="has-text-primary"></h4>
 
-                        <p>If you would be interested in buying a KAP®, send us an e-mail with your details to</p>
+                        <p data-phrase-id="alertMessage"></p>
                         <a class="button is-primary" href="mailto:kayakadaptedpaddle@gmail.com">
                             <span class="icon">
                                 <i class="fas fa-envelope"></i>
