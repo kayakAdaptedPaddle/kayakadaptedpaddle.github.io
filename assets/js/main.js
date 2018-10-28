@@ -49,3 +49,16 @@ document.addEventListener('DOMContentLoaded', () => {
     alertTitle: "Estamos preparando la primera ronda de producción",
     alertMessage: "Si estás interesado en adquirir un KAP®, envíanos un mail a:"
   });
+
+
+  function changeToEnglish(){
+      document.getElementById('lang-es').classList.remove('is-active');
+    languative.changeLanguage('en');
+    document.getElementById('lang-eng').classList.add('is-active');
+  }
+
+  function changeToSpanish(){
+    document.getElementById('lang-eng').classList.remove('is-active');
+    languative.changeLanguage('html');
+    document.getElementById('lang-es').classList.add('is-active');
+}
