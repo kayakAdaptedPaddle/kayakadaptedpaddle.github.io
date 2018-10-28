@@ -5,6 +5,12 @@ $navbar-dropdown-background-color: transparent;
 
 @import "../../bulma-0.7.2/bulma";
 
+.content{
+    p{
+        line-height: 220%;
+        font-size: 105%;
+    }
+}
 .has-background-transparent{
     background: transparent !important;
 }

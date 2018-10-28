@@ -6147,6 +6147,10 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.content p {
+  line-height: 220%;
+  font-size: 105%; }
+
 .has-background-transparent {
   background: transparent !important; }
 
