@@ -6188,9 +6188,6 @@ label.panel-block {
 .intro-section:nth-child(odd) {
   flex-direction: row; }
 
-#main-header {
-  background-image: url(../../assets/imgs/KAPshortVideo.mp4); }
-
 ul, li {
   list-style-type: none !important; }
 
@@ -6216,5 +6213,3 @@ ul, li {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #00d1b2, white);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-
-/*# sourceMappingURL=main.css.map */
