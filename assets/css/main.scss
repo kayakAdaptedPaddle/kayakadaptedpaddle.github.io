@@ -1,0 +1,13 @@
+
+
+
+@import "../../bulma-0.7.2/bulma";
+
+.has-background-image-centered{
+    background-position: center;
+    background-size: cover;
+}
+
+#main-header{
+    background-image: url(../../assets/imgs/KAP-1.png);
+}
