@@ -6168,10 +6168,12 @@ label.panel-block {
   opacity: .35; }
 
 .intro-section {
-  min-height: 20em;
   margin-block-end: 2em !important;
   margin-block-start: 2em !important;
-  flex-direction: row-reverse; }
+  flex-direction: row-reverse;
+  text-align: justify; }
+  .intro-section .column {
+    min-height: 20em; }
 
 .intro-section:nth-child(odd) {
   flex-direction: row; }
