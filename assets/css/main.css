@@ -6150,6 +6150,10 @@ label.panel-block {
 .content p {
   line-height: 220%;
   font-size: 105%; }
+.content h1 {
+  margin-block-start: 3em;
+  margin-bblock-end: 1em;
+  text-align: center; }
 
 .has-background-transparent {
   background: transparent !important; }
@@ -6188,8 +6192,11 @@ label.panel-block {
 .intro-section:nth-child(odd) {
   flex-direction: row; }
 
-ul, li {
+ul li {
   list-style-type: none !important; }
+
+ol li {
+  list-style-type: decimal !important; }
 
 #myVideo {
   position: absolute;
@@ -6213,3 +6220,5 @@ ul, li {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #00d1b2, white);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+/*# sourceMappingURL=main.css.map */
