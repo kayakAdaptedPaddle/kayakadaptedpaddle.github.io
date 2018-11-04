@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   languative.modifyDictionary("es", {
-    alertTitle: "Estamos preparando la primera ronda de producción",
+    alertTitle: "Estamos preparando la primera ronda de entrega",
     alertMessage: "Si estás interesado en adquirir un KAP®, envíanos un mail a:"
   });
 
