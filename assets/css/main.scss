@@ -10,6 +10,12 @@ $navbar-dropdown-background-color: transparent;
         line-height: 220%;
         font-size: 105%;
     }
+
+    h1{
+        margin-block-start: 3em;
+        margin-bblock-end: 1em;
+        text-align: center;
+    }
 }
 
 .has-background-transparent{
@@ -59,9 +65,14 @@ $navbar-dropdown-background-color: transparent;
 
 
 
-ul, li{
+ul li{
     list-style-type: none !important;
 }
+
+ol li{
+    list-style-type: decimal !important;
+}
+
 
 #myVideo {
     position: absolute;
